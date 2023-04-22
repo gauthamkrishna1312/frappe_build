@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #565fae;
+    background-image: url('img/back_ptn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: rgb(36, 32, 157);
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 8);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-right img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    color: #f4f2f2;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  li a:hover {
+    background-color: #565fae;
+    width: 120%;
+    border-radius: 50px;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .main-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  #last-main-container{
+    margin-bottom: 85px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #242222;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 8);
+  }
+  @media screen and (max-width: 600px) {
+    header {
+      padding: 20px;
+      font-size: 14px;
+      text-align: center;
+    }
+  
+    footer {
+      padding: 5px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+  
