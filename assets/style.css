@@ -10,13 +10,21 @@
     font-size: 16px;
     overflow-x: hidden;
   }
-  a {
-    text-decoration: none;
-  }
+  a:link { text-decoration: none; }
+
+
+  a:visited { text-decoration: none; }
+  
+  
+  a:hover { text-decoration: none; }
+  
+  
+  a:active { text-decoration: none; }
   .nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: #c2c2c2;
   }
   .svg-container {
     background-color: #eee;
@@ -85,6 +93,8 @@ footer{
   display:grid;
   align-items: center;
   justify-items: center;
+  background: #c2c2c2;
+  padding-top: 20px;
   
 }
 .logos .logo{
@@ -98,6 +108,23 @@ footer{
   align-items: center;
   justify-content: center;
   padding: 5px;
+}
+.butt{
+  background: #4fb96c;
+  border: none;
+  color: #c2c2c2;
+  padding: 2px;
+}
+.butt a{
+  color: #fff;
+}
+.butt:hover{
+
+background: #1e592e;
+}
+.butt a:hover{
+ padding: 2px;
+ color: #fff;
 }
   @media screen and (max-width: 400px) {
     .svg-container{
