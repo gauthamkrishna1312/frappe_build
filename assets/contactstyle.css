@@ -101,21 +101,7 @@ body {
   color: #97c77e;
   transition: color 0.5s ease-in-out;
 }
-.cards li .details .name {
-  font-weight: 600;
-}
-.cards li .details .name:before {
-  content: "\f2c0";
-}
-.cards li .details .title:before {
-  content: "\f2c1";
-}
-.cards li .details .phone:before {
-  content: "\f095";
-}
-.cards li .details .email:before {
-  content: "\f003";
-}
+
 .cards li:hover {
   background: rgba(235, 237, 189, 0.5);
   transition: all 0.2s ease-in-out;
