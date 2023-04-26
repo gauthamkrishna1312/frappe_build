@@ -54,20 +54,32 @@ svg {
   font-weight: 600;
 }
 .child button {
-  --width: 150px;
-  --timing: 2s;
-  border: 0;
-  width: var(--width);
-  padding-block: 1em;
-  color: #fff;
-  font-weight: bold;
-  font-size: 1em;
-  background: rgb(64, 192, 87);
-  transition: all 0.2s;
-  border-radius: 3px;
-  padding: 10px;
+  background-color: #1f2d65;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer
 }
 
+.butt-build{
+  background-color: #7b73d3;
+  color: rgb(215, 202, 202);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer
+}
 .child button:hover {
   background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
   animation: var(--timing) linear dance6123 infinite;
